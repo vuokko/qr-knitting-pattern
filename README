@@ -31,6 +31,10 @@ So you can try to check the output with that.
 And sad news to Microsoft Windows users. This doesn't work for you. Only in 
 enviroments where is bash and other tools. (2)
 
+If tou use this tool make a pattern and write about your ready work in 
+book, blog whatever, please reference with 
+URL https://github.com/vuokko/qr-knitting-pattern
+
 LAUNDRY TAG
 
 If you haven't understood anything ask your (UNIX) geek friend if he could 
@@ -43,4 +47,4 @@ print the pattern of your choise.
 NO WARRANTY and USE AT YOUR OWN RISK. DON'T TRUST MY SCRIPTING SKILLS
 
 AUTHOR
-Hannu Vuolasaho 2012 vuokkosetae@gmail.com
+Hannu Vuolasaho 2012 vuokkosetae at gmail dot com
