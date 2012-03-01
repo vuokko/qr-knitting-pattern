@@ -1,0 +1,46 @@
+NAME
+qrcode-knitting-pattern.sh -- Generates QR knitting pattern grid from text.
+
+SYNOPSIS
+./generate "I hate text shirts"
+
+REQUIMENTS
+
+This requires libpng (png2pnm and pnm2png), netbmtools (pnmtoolnames) 
+and qrencode which generates the images. It can be found from: 
+http://fukuchi.org/works/qrencode/index.html.en
+if your distribution doesn't ship as package.
+
+DESCRIPTION
+
+qrcode-knitting-pattern.sh passes given parameters to qrencode. 
+The patterns are generated on four different error correction levels. 
+Error correction in accending order: Low, Med, Q, High These come from qrencode.
+
+All four patterns are given as possibility to select best one for your needs.
+
+
+Size of the pattern changes by the length of error correction level and text 
+size. The white area outside of pattern is also required for image to be 
+recognized.
+
+Non ASCII characters don't work. (1)
+
+The pattern isn't checked. Smartphones have software to scan QR-codes often. 
+So you can try to check the output with that.
+And sad news to Microsoft Windows users. This doesn't work for you. Only in 
+enviroments where is bash and other tools. (2)
+
+LAUNDRY TAG
+
+If you haven't understood anything ask your (UNIX) geek friend if he could 
+print the pattern of your choise.
+
+(1) Tested only with zbarimg. Maybe something else can understand.
+(2) Installing cygwin and all required tools, qrencode, I don't see reason why 
+    not this script wouldn't run. No support for that provided.
+
+NO WARRANTY and USE AT YOUR OWN RISK. DON'T TRUST MY SCRIPTING SKILLS
+
+AUTHOR
+Hannu Vuolasaho 2012 vuokkosetae@gmail.com
