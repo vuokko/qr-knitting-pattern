@@ -28,6 +28,10 @@ Non ASCII characters don't work. (1)
 
 The pattern isn't checked. Smartphones have software to scan QR-codes often. 
 So you can try to check the output with that.
+To use this script in OS X you need fink and at least:
+http://pdb.finkproject.org/pdb/package.php/netpbm10
+http://pdb.finkproject.org/pdb/package.php/qrencode
+
 And sad news to Microsoft Windows users. This doesn't work for you. Only in 
 enviroments where is bash and other tools. (2)
 
